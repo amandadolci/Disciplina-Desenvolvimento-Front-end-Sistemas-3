@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+}
+
+.form input, .form textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.form button {
+  padding: 8px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
