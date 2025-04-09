@@ -17,6 +17,8 @@ import Animal from './trilha03/exercicio02/Animal';
 import Rooms from './trilha03/exercicio03/Rooms';
 import RoomDetails from './trilha03/exercicio03/RoomDetails';
 import BookingSuccess from './trilha03/exercicio03/BookingSuccess';
+import BuscarUsuario from './trilha04/exercicio01/BuscarUsuario';
+import CriarUsuario from './trilha04/exercicio02/CriarUsuario';
 
 const App = () => (
 	<div>
@@ -112,6 +114,19 @@ const App = () => (
 						<Route path='/booking-success' element={<BookingSuccess />} />
 					</Routes>
 				</Router>
+			</section>
+		</section>
+
+		<section>
+			<h1>Trilha 04</h1>
+			<section>
+				<h2>Exercício 01: Buscar Usuário</h2>
+				<BuscarUsuario />
+			</section>
+
+			<section>
+				<h2>Exercício 02: Criar Usuário</h2>
+				<CriarUsuario />
 			</section>
 		</section>
 	</div>
